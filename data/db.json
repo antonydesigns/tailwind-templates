@@ -1,0 +1,7 @@
+{
+  "cards": [
+    { "id": 1, "title": "Gio", "description": "Smartest coder" },
+    { "id": 2, "title": "Gita", "description": "Cutest adventurer" },
+    { "id": 3, "title": "Marco", "description": "Best filmamker" }
+  ]
+}
