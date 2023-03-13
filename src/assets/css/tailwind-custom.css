@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --base-font-size: 16px;
+}
+
+a,
+p,
+label,
+legend,
+input,
+select,
+option,
+li,
+span,
+button,
+caption,
+th,
+td,
+code,
+blockquote {
+  font-size: var(--base-font-size);
+}
+
+h4 {
+  font-size: calc(var(--base-font-size) * 18 / 16);
+}
+
+h3 {
+  font-size: calc(var(--base-font-size) * 20 / 16);
+  font-weight: 500;
+}
+
+h2 {
+  font-size: calc(var(--base-font-size) * 22 / 16);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: calc(var(--base-font-size) * 24 / 16);
+  font-weight: 900;
+}
